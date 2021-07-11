@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.GalleryActivity">
+
+    <ImageButton
+        android:id="@+id/leftImageButton"
+        android:layout_width="55dp"
+        android:layout_height="59dp"
+        android:contentDescription="@string/left_button"
+        android:onClick="onLeftButtonClicked"
+        android:scaleType="fitCenter"
+        android:scaleX="-1"
+        app:layout_constraintBottom_toBottomOf="@+id/mainImageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mainImageView"
+        app:srcCompat="@drawable/arrow_right" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@android:string/untitled"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/mainImageView"
+        android:layout_width="272dp"
+        android:layout_height="286dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/main_image"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/rightImageButton"
+        app:layout_constraintStart_toEndOf="@+id/leftImageButton"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView"
+        app:srcCompat="@drawable/spongebob" />
+
+    <ImageButton
+        android:id="@+id/rightImageButton"
+        android:layout_width="55dp"
+        android:layout_height="59dp"
+        android:contentDescription="@string/right_button"
+        android:onClick="onRightButtonClicked"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/mainImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mainImageView"
+        app:srcCompat="@drawable/arrow_right" />
+
+    <TextView
+        android:id="@+id/indexTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@android:string/untitled"
+        app:layout_constraintEnd_toEndOf="@+id/mainImageView"
+        app:layout_constraintStart_toStartOf="@+id/mainImageView"
+        app:layout_constraintTop_toBottomOf="@+id/mainImageView" />
+
+    <EditText
+        android:id="@+id/commentsEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/comments"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="@+id/mainImageView"
+        app:layout_constraintStart_toStartOf="@+id/mainImageView"
+        app:layout_constraintTop_toBottomOf="@+id/indexTextView" />
+
+    <ListView
+        android:id="@+id/imagesListView"
+        android:layout_width="414dp"
+        android:layout_height="143dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/commentsEditText" />
+</androidx.constraintlayout.widget.ConstraintLayout>

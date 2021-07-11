@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GuessGame</string>
+    <string name="login">Login</string>
+    <string name="username">Username:</string>
+    <string name="type_your_username">Type your username</string>
+    <string name="password">Password:</string>
+    <string name="type_your_password">Type your password</string>
+    <string name="question">Guess the city location of this status</string>
+    <string name="paris">Paris</string>
+    <string name="Dakar">Dakar</string>
+    <string name="Description">status in the world</string>
+</resources>

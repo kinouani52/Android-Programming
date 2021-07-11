@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">World Gallery</string>
+    <string name="email">email</string>
+    <string name="login">Login</string>
+    <string name="save">Save</string>
+    <string name="logout">Logout</string>
+    <string name="username">email:</string>
+    <string name="type_your_username">Type your email</string>
+    <string name="type_your_city">Type your current living city</string>
+    <string name="type_your_preference">Type the statue you would like to visit</string>
+    <string name="password">Password:</string>
+    <string name="type_your_password">Type your password</string>
+    <string name="question">Guess the city location of this status</string>
+    <string name="paris">Paris</string>
+    <string name="Dakar">Dakar</string>
+    <string name="Description">status in the world</string>
+    <string name="item_image">item image</string>
+    <string name="logo_image">logo image</string>
+    <string name="register">Click Here to register</string>
+    <string name="account"> Register form</string>
+    <string name="Uname">email</string>
+    <string name="send">SEND</string>
+    <string name="city">Your current city</string>
+    <string name="preference">Your preference</string>
+    <string name="surveyBTN">Survey</string>
+    <string name="survey">Which statue would you visit?</string>
+
+</resources>

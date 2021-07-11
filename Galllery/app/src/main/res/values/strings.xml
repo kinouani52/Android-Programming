@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Galllery</string>
+    <string name="Login">Login</string>
+    <string name="name">name</string>
+    <string name="password">password</string>
+    <string name="namefield">Name</string>
+    <string name="LoginBTN">Login</string>
+    <string name="passwordfield">Password</string>
+    <string name="left_button">Previous</string>
+    <string name="right_button">Next</string>
+    <string name="images">TODO</string>
+
+    <string name="mandela_nelson">Nelson Mandela</string>
+    <string name="eiffel_tower">Tour eiffel</string>
+    <string name="liberty_statue">Statue de la liberté </string>
+    <string name="african">Renaissance africaine</string>
+    <string name="todo">TODO</string>
+</resources>

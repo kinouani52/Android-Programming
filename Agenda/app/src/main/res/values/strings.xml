@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Agenda</string>
+
+        <string name="name">Name:</string>
+        <string name="address">Address:</string>
+        <string name="phone">Phone:</string>
+        <string name="your_name">Your Name</string>
+        <string name="your_address">Your Address</string>
+        <string name="your_phone">Your Phone</string>
+        <string name="add_new_item">Add New Item</string>
+        <string name="add_item_button">Add Item Button</string>
+    <string name="save_button">Save</string>
+    </resources>

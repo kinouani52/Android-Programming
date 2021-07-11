@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Gallery</string>
+    <string name="login">Login</string>
+    <string name="username">Username:</string>
+    <string name="type_your_username">Type your username</string>
+    <string name="password">Password:</string>
+    <string name="type_your_password">Type your password</string>
+    <string name="error_title">Error</string>
+    <string name="error_msg">Username or password incorrect!</string>
+    <string name="comments">Comments</string>
+    <string name="left_button">Left Button</string>
+    <string name="right_button">Right Button</string>
+    <string name="main_image">Main Image</string>
+</resources>

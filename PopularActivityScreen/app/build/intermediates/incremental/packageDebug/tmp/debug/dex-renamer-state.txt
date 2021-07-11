@@ -1,0 +1,4 @@
+#Mon Nov 25 10:41:54 IST 2019
+base.0=F\:\\AndroidSSD\\PopularActivityScreen\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

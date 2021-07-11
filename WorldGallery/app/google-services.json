@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1058501066871",
+    "project_id": "world-gallery-6c3b8",
+    "storage_bucket": "world-gallery-6c3b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058501066871:android:e488f04b8f6151ec5e8672",
+        "android_client_info": {
+          "package_name": "serge.kinouani.worldgallery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058501066871-bjl5rfs8ano0f257u6n8ad1eunnetkgj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcd24uQNX2-9g1ERfEG3Xk-ZfGPgomLwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058501066871-bjl5rfs8ano0f257u6n8ad1eunnetkgj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
